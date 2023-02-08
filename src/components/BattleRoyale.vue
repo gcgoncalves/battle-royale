@@ -1,16 +1,19 @@
 <template>
   <div>
-    {{ message }}
+    <NewPlayerForm />
   </div>
 </template>
 
 <script>
+import NewPlayerForm from './NewPlayerForm.vue';
 export default {
   name: 'BattleRoyale',
+  components: {
+    NewPlayerForm
+  },
   props: {},
   data: () => {
     return {
-      'message': 'This is the begining.',
     }
   },
 }
