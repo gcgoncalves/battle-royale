@@ -1,24 +1,18 @@
 # battle-royale
 
-## Project setup
+A simple turn-based battle game!
+
+## Prerequesites
+
+- Node
+- MongoDB
+
+## How to run
 ```
-yarn install
+yarn start
 ```
 
-### Compiles and hot-reloads for development
+## Testing
 ```
-yarn serve
+yarn test
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
